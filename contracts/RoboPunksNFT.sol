@@ -22,7 +22,7 @@ contract RoboPunksNFT is ERC721, Ownable {
         // set withdraw wallet address
     }
 
-    fucntion setIsPublicMintEnabled(bool isPublicMintEnabled_) external onlyOwner {
+    function setIsPublicMintEnabled(bool isPublicMintEnabled_) external onlyOwner {
         isPublicMintEnabled = isPublicMintEnabled_;
     }
 
