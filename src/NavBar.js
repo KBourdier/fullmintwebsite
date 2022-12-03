@@ -26,7 +26,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                 <Link href="https://www.twitter.com">
                     <Image src={Twitter} boxSize="42px" margin="0 15px" />
                 </Link>
-                <Link href="https://www.gmail.com">
+                <Link href="https://discord.gg/7ayY9WepME">
                     <Image src={Email} boxSize="42px" margin="0 15px" />
                 </Link>
             </Flex>
